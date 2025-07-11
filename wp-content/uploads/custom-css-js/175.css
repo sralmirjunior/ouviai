@@ -1,0 +1,117 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.wpas-login-register {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.wpas-login-register .wpas-form {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wpas-login-register .wpas-form h3 {
+    color: #0E589F;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Agrupa os campos, botão e link com comportamento correto */
+.wpas-login-register .wpas-form-group,
+.wpas-login-register .wpas-checkbox {
+    margin-bottom: 16px;
+}
+
+/* Mantém o espaçamento entre os campos, mas força botão e link para base */
+.wpas-login-register .wpas-form > .wpas-btn,
+.wpas-login-register .wpas-form > .wpas-forgot-password-link {
+    margin-top: auto;
+}
+
+/* Opcional: melhora o espaçamento do link */
+.wpas-login-register .wpas-forgot-password-link {
+    display: block;
+    margin-top: 12px;
+    text-align: center;
+    color: #083359;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.wpas-login-register .wpas-forgot-password-link:hover {
+    color: #0E589F;
+    text-decoration: underline;
+}
+
+/* Campos */
+.wpas-login-register .wpas-form-control {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccd6e0;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 15px;
+}
+
+.wpas-login-register .wpas-form-control:focus {
+    border-color: #0E589F;
+    box-shadow: 0 0 0 3px rgba(14, 88, 159, 0.2);
+}
+
+/* Checkbox */
+.wpas-login-register .wpas-checkbox label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+/* Botões */
+.wpas-login-register .wpas-btn {
+    background-color: #0E589F;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.wpas-login-register .wpas-btn:hover {
+    background-color: #083359;
+    transform: translateY(-2px);
+}
+
+.wpas-login-register .wpas-btn:active {
+    transform: translateY(0);
+}
+
+/* Responsividade */
+@media (max-width: 860px) {
+    .wpas-login-register .wpas-login-register {
+        flex-direction: column;
+        align-items: center;
+    }
+    .wpas-login-register .wpas-form {
+        min-height: unset;
+    }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,151 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Container geral */
+.wpas.wpas-submit-ticket {
+  font-family: "Segoe UI", sans-serif;
+  max-width: 1140px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+/* Botões do topo */
+.wpas-ticket-buttons-top {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+  justify-content: flex-start;
+}
+
+.wpas-ticket-buttons-top .wpas-btn {
+  background-color: #0E589F;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.wpas-ticket-buttons-top .wpas-btn:hover {
+  background-color: #083359;
+}
+
+/* Campos do formulário */
+.wpas-form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.wpas-form-group label {
+  font-weight: 600;
+  color: #083359;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.wpas-form-control,
+.wpas-form-group select,
+.wpas-form-group textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+  background-color: #fff;
+}
+
+.wpas-form-control:focus,
+.wpas-form-group select:focus,
+.wpas-form-group textarea:focus {
+  border-color: #0E589F;
+  outline: none;
+}
+
+/* Editor (oculto por padrão) */
+textarea.wp-editor-area[aria-hidden="true"] {
+  display: none !important;
+}
+
+/* Select2 */
+.select2-container--default .select2-selection--single {
+  height: 46px !important;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.select2-selection__arrow {
+  height: 100% !important;
+  top: 0 !important;
+}
+
+/* Corrige o visual do campo Departamento */
+#wpas_department_wrapper select#wpas_department {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  height: 46px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  width: 100%;
+  transition: border-color 0.2s ease;
+}
+
+#wpas_department_wrapper select#wpas_department:focus {
+  border-color: #0E589F;
+  outline: none;
+}
+
+/* Botão de envio */
+.wpas-form button[type="submit"] {
+  background-color: #083359;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wpas-form button[type="submit"]:hover {
+  background-color: #0E589F;
+}
+
+/* Mensagens de ajuda */
+.wpas-help-block {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.4rem;
+  line-height: 1.4;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .wpas-ticket-buttons-top {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .wpas-form-control,
+  .wpas-form-group select {
+    font-size: 0.95rem;
+  }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
