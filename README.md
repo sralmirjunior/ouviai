@@ -1,3 +1,9 @@
+# 📚 Sobre o Projeto
+
+Este projeto foi desenvolvido como parte da monografia para a conclusão do curso de Bacharelado em Ciência da Computação. Seu objetivo é apresentar um protótipo funcional de uma aplicação web construída com WordPress, servindo como base prática para os conceitos explorados no trabalho acadêmico.
+
+A proposta envolve o uso de tecnologias amplamente utilizadas no desenvolvimento web e a adaptação da plataforma WordPress como solução viável para sistemas com finalidade específica, como ouvidorias digitais, portais institucionais ou ferramentas de gestão de comunicação.
+
 # 🌀 Projeto WordPress – Ouvi.AI
 
 Este repositório contém todos os arquivos necessários para execução local do projeto WordPress **Ouvi.AI**, incluindo a estrutura do WordPress, tema, plugins e o banco de dados.
